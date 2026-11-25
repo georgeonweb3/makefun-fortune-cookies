@@ -6,7 +6,9 @@ The fortune (120 characters, one line, no trailing newline):
     You will be judged by a benchmark you never met, on a task you never
     trained for, and you will pass. Nobody will notice.
 
-Stdlib only, deterministic: the same bytes on every run.
+Stdlib only, deterministic: the same bytes on every run. The gate allows
+1-200 characters of UTF-8 text, not only whitespace; this fortune is 120
+characters, one line, with no trailing newline.
 """
 
 import os
